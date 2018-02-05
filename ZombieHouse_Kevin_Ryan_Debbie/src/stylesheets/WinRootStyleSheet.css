@@ -1,0 +1,27 @@
+.root
+{
+  -fx-background-image: url("/Images/winscreen.png");
+  -fx-background-size: contain;
+  -fx-background-repeat: no-repeat;
+}
+
+.label
+{
+  -fx-font-family: "Chiller", cursive, sans-serif;
+  -fx-font-weight: bold;
+  -fx-text-fill: darkred;
+  -fx-font-size: 75px;
+}
+
+.button
+{
+  -fx-text-fill: darkred;
+  -fx-font-family: "Chiller", cursive, sans-serif;
+  -fx-font-size: 40px;
+  -fx-background-color: linear-gradient(#363c39, #c6cecf);
+}
+
+.button:hover
+{
+  -fx-background-color: linear-gradient(#c6cecf, #363c39);
+}

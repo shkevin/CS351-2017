@@ -1,0 +1,22 @@
+.root
+{
+  -fx-background-image: url("/Images/background.jpg");
+  -fx-background-size: cover;
+  -fx-background-repeat: no-repeat;
+}
+
+.button
+{
+  -fx-text-fill: darkred;
+  -fx-font-family: "Chiller", cursive, sans-serif;
+  -fx-font-size: 40px;
+
+  -fx-background-color: linear-gradient(#363c39, #c6cecf);
+  -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover
+{
+  -fx-background-color: linear-gradient(#c6cecf, #363c39);
+}
+

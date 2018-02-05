@@ -1,0 +1,13 @@
+# Blender MTL File: 'Ana_Model_animated.blend'
+# Material Count: 1
+
+newmtl Ana_mat
+Ns 54.901961
+Ka 0.519084 0.519084 0.519084
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd Ana_dif.png

@@ -1,0 +1,60 @@
+.root
+{
+  -fx-background-image: url("/Images/workbench.jpg");
+  -fx-background-size: cover;
+  -fx-background-repeat: no-repeat;
+  -fx-font-family: "Chiller", cursive, sans-serif;
+}
+
+.label
+{
+  -fx-font-size: 50px;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+  -fx-text-fill: darkred;
+}
+
+.button
+{
+  -fx-text-fill: darkred;
+  -fx-font-size: 40px;
+  -fx-background-color: linear-gradient(#363c39, #c6cecf);
+}
+
+.button:hover
+{
+  -fx-background-color: linear-gradient(#c6cecf, #363c39);
+}
+
+.slider .axis .axis-tick-mark, .slider .axis .axis-minor-tick-mark, .slider .tick.label
+{
+  -fx-stroke: #e9cea3;
+}
+
+.slider .track
+{
+  -fx-background-color: linear-gradient(#363c39, #c6cecf);
+  -fx-background-insets: 0 0 -1 0, 0, 1;
+  -fx-background-radius: 0.25em, 0.25em, 0.166667em;
+  -fx-padding: 0.25em;
+}
+
+.slider .track:hover
+{
+  -fx-background-color: linear-gradient(#c6cecf, #363c39);
+}
+
+.slider .tick-label
+{
+  -fx-stroke: #e9cea3;
+}
+
+.slider .thumb
+{
+  -fx-background-color: linear-gradient(#c6cecf, #363c39);
+}
+
+.slider .axis
+{
+  -fx-tick-label-fill: white;
+}

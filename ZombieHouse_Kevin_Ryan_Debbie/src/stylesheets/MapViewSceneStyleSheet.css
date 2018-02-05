@@ -1,0 +1,12 @@
+.button
+{
+  -fx-text-fill: darkred;
+  -fx-font-family: "Chiller", cursive, sans-serif;
+  -fx-font-size: 40px;
+  -fx-background-color: linear-gradient(#363c39, #c6cecf);
+}
+
+.button:hover
+{
+  -fx-background-color: linear-gradient(#c6cecf, #363c39);
+}

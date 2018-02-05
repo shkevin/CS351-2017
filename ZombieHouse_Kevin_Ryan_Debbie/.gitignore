@@ -1,0 +1,8 @@
+#ignore idea/
+.idea/
+
+#ignore ZombieHouse_.iml
+ZombieHouse_.iml
+
+#ignore out/
+out/
