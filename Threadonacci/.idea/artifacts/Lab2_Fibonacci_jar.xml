@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Lab2-Fibonacci:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab2_Fibonacci_jar</output-path>
+    <root id="archive" name="Lab2-Fibonacci.jar">
+      <element id="module-output" name="Lab2-Fibonacci" />
+      <element id="directory" name="Source">
+        <element id="dir-copy" path="$PROJECT_DIR$" />
+      </element>
+    </root>
+  </artifact>
+</component>
